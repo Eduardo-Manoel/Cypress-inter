@@ -1,0 +1,17 @@
+{
+    "name": "curso-cypress-intermediario",
+    "version": "1.0.0",
+    "description": "Curso intermediário de automação de testes com Cypress da Escola Talking About Testing.",
+    "main": "index.js",
+    "scripts": {
+        "cypress run": "cypress run",
+        "cypress open": "cypress open"
+    },
+    "dependencies": {
+        "cypress": "^10.6.0",
+        "yarm": "^0.4.0"
+    },
+    "devDependencies": {
+        "faker": "^5.5.3"
+    }
+}
