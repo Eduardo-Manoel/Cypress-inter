@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe('Logout',() => {
-beforeEach (() => cy.Login ())
+beforeEach (() => cy.login ())
     it('successfully', () => {
         cy.Logout()
 
