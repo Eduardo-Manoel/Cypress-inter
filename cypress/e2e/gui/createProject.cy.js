@@ -21,4 +21,3 @@ describe('Create Project', () => {
     })
 })
 
-//(Cypress.env('user_name'))
