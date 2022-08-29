@@ -8,11 +8,12 @@
         "cypress open": "cypress open"
     },
     "dependencies": {
-        "cypress": "^10.6.0",
+        "axios": "^0.27.2",
         "dotenv": "^16.0.1",
         "yarm": "^0.4.0"
     },
     "devDependencies": {
+        "cypress": "^9.7.0",
         "faker": "^5.5.3"
     }
 }

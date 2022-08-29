@@ -1,6 +1,6 @@
 
-const { defineConfig } = require("cypress");
-require('dotenv').config();
+const { defineConfig } = require("cypress"); 
+
 
 module.exports = defineConfig({
   projectId: 'mswjpr',
@@ -13,8 +13,8 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost/',
     //slowTestThreshold: 1000,
     env: {
-      user_name: "user4@user.com",
-      user_password: "123",
+      user_name: "eduardo",
+      user_password: "19202122",
       gitlab_access_token: "_NyV7MWBrHciGDHvcrMy",
       setupNodeEvents(on, config) {
         // implement node event listeners here
