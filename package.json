@@ -4,7 +4,7 @@
     "description": "Curso intermediário de automação de testes com Cypress da Escola Talking About Testing.",
     "main": "index.js",
     "scripts": {
-        "cypress run": "cypress run",
+        "test": "cypress run",
         "cypress open": "cypress open"
     },
     "dependencies": {
